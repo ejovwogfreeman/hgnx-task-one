@@ -17,7 +17,6 @@ body {
 }
 
 /* Main styling */
-
 .main__container {
   display: flex;
   flex-direction: column;
@@ -42,7 +41,6 @@ body {
 }
 
 /* real time data (current day & UTC Time */
-
 .real_time_data {
   display: flex;
   align-items: center;
@@ -55,10 +53,20 @@ body {
   font-size: 16px;
 }
 
-/* github */
-
-.github {
+/* github-container */
+.github-container {
+  background: linear-gradient(to right, rgb(0, 204, 255), rgb(73, 128, 0));
+  border-radius: 5px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
+  color: white;
+}
+
+/* github */
+.github {
   display: flex;
   gap: 10px;
   padding: 8px 10px;
@@ -66,6 +74,13 @@ body {
   justify-content: center;
   text-decoration: none;
   font-weight: 600;
-  border-radius: 8px;
-  border: 1px solid #cccccc;
+  border: 1px solid transparent;
+  border-image-slice: 1;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.github:hover {
+  background-color: rgb(0, 0, 0, 0.9);
 }
