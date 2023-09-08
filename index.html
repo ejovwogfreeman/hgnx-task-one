@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Oga</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Main Content-->
+    <main class="main__container">
+      <img
+        data-testid="slackDisplayImage"
+        class="main__image"
+        src="./public//images//profile_pic.png"
+        alt="DevDave"
+      />
+      <div class="main__details flex">
+        <h1 data-testid="slackUserName">DevDave</h1>
+        <span class="flex">
+          <p>Track:</p>
+          <p data-testid="myTrack">Frontend</p>
+        </span>
+      </div>
+      <div>
+        <!-- Current day of the week -->
+        <span class="real_time_data">
+          <h3>Today is:</h3>
+          <p id="dayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
+        </span>
+
+        <!-- current UTC time -->
+        <span class="real_time_data">
+          <h3>The current UTC Time is:</h3>
+          <p id="utcTime" data-testid="currentUTCTime"></p>
+        </span>
+
+        <!-- gitHub link -->
+        <a
+          class="github"
+          data-testid="githubURL"
+          href="https://github.com/OgaDavid/HNGx-Task-One"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub</a>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
