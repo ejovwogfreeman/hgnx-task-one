@@ -28,4 +28,6 @@ Requirements:
 
 # Solution 🚀
 
-![mobile View](https://github.com/ejovwogfreeman/hngx-task-one/blob/main/public/images/mobile.png?raw=true)
+![mobile View](https://github.com/OgaDavid/HNGx-Task-One/blob/main/public/images/mobile.png?raw=true)
+
+![mobile View](https://github.com/ejovwogfreeman/hgnx-task-one/blob/main/public/images/mobile.png?raw=true)
